@@ -7,7 +7,7 @@ interface InputProps {
   leftIcon?: React.ReactNode;
 }
 
-export function GBTextEnter ({ 
+export default function GBTextEnter ({ 
   label, 
   placeholder, 
   secureTextEntry = false

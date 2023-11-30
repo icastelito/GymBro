@@ -7,7 +7,7 @@ interface ButtonProps extends IButtonProps {
   color?: string;
 }
 
-export function CustomedButton({ children, autoSize = false, color, ...rest }: ButtonProps){
+export default function GBButton({ children, autoSize = false, color, ...rest }: ButtonProps){
 
   return (
     <>

@@ -1,7 +1,7 @@
 import React from "react";
 import { VStack, Text, Box, FormControl, Input, Button, Link } from "native-base";
 import { TouchableOpacity } from "react-native";
-import Title from "../components/Title";
+import Title from "../../components/Title";
 
 export default function Login() {
         return (
